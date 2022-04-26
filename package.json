@@ -1,0 +1,18 @@
+{
+  "name": "progassignment1",
+  "version": "1.0.0",
+  "description": "Server serving files from scu.edu",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "server:modules": "npm i",
+    "server:start": "node index.js",
+    "server": "npm run server:modules && npm run server:start"
+  },
+  "author": "Sai Parthiv Bandikallu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4"
+  }
+}

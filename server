@@ -1,0 +1,10 @@
+while [ $# -gt 0 ] ; do
+  case $1 in
+    -s | -document_root) S="$2" ;;
+    -u | -port) U="$2" ;;
+
+  esac
+  shift
+done
+echo "Running node server on localhost:$U and directory:$S";
+node ./index.js $S $U;
