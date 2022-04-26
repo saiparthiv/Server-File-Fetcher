@@ -5,7 +5,7 @@ The Program starts a server on any desired port and handles only GET requests an
 It returns appropriate files from the server directory and if not fetches the files from the original server i.e scu.edu in this case.
 The Program builds the servers files directory by fetching the files from original Server and saving them in the Host Server directory appropriately, basically creating a clone.
 It also responds with the appropriate HTTP Status Codes.
-Runs over HTTPS 1.1 with a configurable keep-alive time
+Runs over HTTPS 1.1 with a configurable keep-alive time.
 
 # FILES 
 
